@@ -2,8 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-BASE_URL = "https://s.minkabu.jp/stock/
-{code}/dividend"
+BASE_URL = "https://s.minkabu.jp/stock/{code}/dividend"
 HEADERS = {
   "User-Agent":"Mozilla/5.0"
 }
