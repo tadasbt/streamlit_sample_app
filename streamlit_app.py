@@ -37,4 +37,5 @@ def get_minkabu_dividend_month(code:str) -> list[str] | None:
 x=10
 'x: ', x
 'import requests'
-get_minkabu_dividend_month("7987")
+dividend_month=get_minkabu_dividend_month("7987")
+'dividend_month: ', dividend_month
