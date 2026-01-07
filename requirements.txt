@@ -1,5 +1,5 @@
 streamlit
 requests
-bs4
+beautifulsoup4
 re
 pandas
